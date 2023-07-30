@@ -5,6 +5,7 @@ import prismadb from "@/lib/prismadb";
 import { stripe } from "@/lib/stripe";
 import { absoluteUrl } from "@/lib/utils";
 
+//absoluteUrl will get url from ur website + new path
 const settingUrl = absoluteUrl("/settings");
 
 export async function GET() {
